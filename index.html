@@ -726,7 +726,7 @@
                             </a>
                         </div>
 
-                        <img src="assets/img/project.png" alt="" class="project__img">
+                        <img src="assets/img/Contact-us.png" alt="" class="project__img">
                     </div>
                 </div>
 
@@ -848,27 +848,27 @@
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="name" class="contact__label">Name</label>
-                                <input required type="text" class="contact__input">
+                                <input autocomplete="off" required type="text" class="contact__input">
                             </div>
                             <div class="contact__content">
                                 <label for="email" class="contact__label">Email</label>
-                                <input required type="email" class="contact__input">
+                                <input autocomplete="off" required type="email" class="contact__input">
                             </div>
                         </div>
                         <div class="contact__content">
                             <label for="project" class="contact__label">Project</label>
-                            <input type="text" class="contact__input">
+                            <input autocomplete="off" type="text" class="contact__input">
                         </div>
                         <div class="contact__content">
                             <label for="message" class="contact__label">Message</label>
-                            <textarea required name="message" id="contact-message" cols="0" rows="7" class="contact__input"></textarea>
+                            <textarea autocomplete="off" required name="message" id="contact-message" cols="0" rows="7" class="contact__input"></textarea>
                         </div>
 
                         <div>
-                            <a href="javascript:{}" class="button button--flex" onclick="document.getElementById('contact--form').submit();">
+                                <button type="submit" class="button button--flex button--submit">
                                 Send Message
                                 <i class="uil uil-message button__icon"></i>
-                            </a>
+                            </button>
                         </div>
                     </form>
                 </div>
