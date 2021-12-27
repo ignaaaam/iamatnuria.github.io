@@ -202,7 +202,7 @@ themeButton.addEventListener('click', () => {
 })
 
 /*==================== SCROLL REVEAL ANIMATION ====================*/
-let srtop = ScrollReveal({
+const srtop = ScrollReveal({
     origin: 'bottom',
     distance: '30px',
     duration: 2000,
