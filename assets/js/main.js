@@ -200,3 +200,18 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*==================== SCROLL REVEAL ANIMATION ====================*/
+let srtop = ScrollReveal({
+    origin: 'bottom',
+    distance: '30px',
+    duration: 2000,
+    reset: true
+});
+
+srtop.reveal(`.home__data, .home__img,
+            .about__img,.about__data,.qualification__container, 
+            .certification__container,
+            .services__content, .project__container, .testimonial__container, .contact`, {
+    interval: 200
+});
