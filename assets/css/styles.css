@@ -1382,7 +1382,7 @@ img {
     .project__container {
         background-color: var(--first-color-second);
         border-radius: 1rem;
-        padding: 3rem 2.5rem 0;
+        padding: 4rem 2.5rem;
         grid-template-columns: 1fr max-content;
         column-gap: 3rem;
     }
@@ -1451,6 +1451,8 @@ img {
     .contact__form {
         width: 460px;
     }
+
+    
 
     .contact__inputs {
         grid-template-columns: repeat(2,1fr);
