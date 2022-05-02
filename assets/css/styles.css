@@ -1123,6 +1123,12 @@ img {
     background-color: var(--text-color-light);
 }
 
+.footer__coffee {
+    margin-top: 25px;
+    display: grid;
+    place-items: center;
+}
+
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px){
