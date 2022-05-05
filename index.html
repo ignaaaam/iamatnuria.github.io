@@ -1057,8 +1057,7 @@
         <section class="brands section" id="companies">
             <h2 class="section__title">Promotional Companies</h2>
             <span class="section__subtitle">Get Discounts on useful brands!</span>
-
-            <div class="brands__container container grid">
+            
                 <!-- Yazing.com Deals Widget -->
                 <div class="" id="yzwg-cc53f73a517f0a49208afa43f761a8bd" data-username="ignaaaam"
                     data-brands="asos,bluehost,1password,hostgator,ledger,nike,oneill,oakley,99designs"
@@ -1074,10 +1073,47 @@
                     document.getElementsByTagName('body')[0].appendChild(yzwgscript);
                             //]]>
                 </script>
+                <div class="amz-container" style="display: grid; place-items: center;">
+                    <iframe class="amz-iframe" src="https://rcm-eu.amazon-adsystem.com/e/cm?o=30&p=48&l=ur1&category=pw&banner=0EY4WWAVQJ8VYDJQHT02&f=ifr&t=ignathedev-21&tracking_id=ignathedev-21" width="728" height="90" scrolling="no" border="0" marginwidth="0" style="border:none; margin-top: 1rem;" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>
+                    <iframe class="amz-iframe2" src="https://rcm-eu.amazon-adsystem.com/e/cm?o=30&p=22&l=ur1&category=pw&banner=08ZDVSE19ZYV3YNPVW02&f=ifr&linkID={{link_id}}&t=ignathedev-21&tracking_id=ignathedev-21" width="250" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>
+                    <iframe class="amz-iframe3" src="https://rcm-eu.amazon-adsystem.com/e/cm?o=30&p=13&l=ur1&category=pw&banner=0ZATS4G1GHSWMYRRE7G2&f=ifr&linkID={{link_id}}&t=ignathedev-21&tracking_id=ignathedev-21" width="468" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>
+                </div>
+                
+                <div class="brands__container container grid">
                 <style>
+
+                    iframe {
+                        display: none;
+                    }
+
                     .yzwg-footer a {
                         text-decoration: underline !important;
                         color: var(--text-color);
+                    }
+
+                    @media screen and (max-width: 568px){
+                        .amz-iframe2 {
+                            margin-top: 2rem;
+                            display: block;
+                        }
+                    }
+
+                    @media screen and (min-width: 568px){
+                        .amz-iframe3 {
+                            margin-top: 2rem;
+                            display: block;
+                        }
+                    }
+
+                    @media screen and (min-width: 768px){
+                        .amz-iframe {
+                            margin-top: 2rem;
+                            display: block;
+                        }
+
+                        .amz-iframe3 {
+                            display: none;
+                        }
                     }
                 </style>
                 <!-- End Yazing.com Deals Widget -->
