@@ -612,8 +612,6 @@ img {
     column-gap: 1.5rem;
 }
 
-
-
 .qualification__title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
@@ -662,9 +660,9 @@ img {
 .job__link {
     transition: all .4s ease-in-out;
     text-decoration: none;
+    color: var(--title-color);
     text-transform: uppercase;
-    font-weight: 300;
-    color: white;
+    font-weight: bold;
     text-decoration-line: underline;
 }
 
