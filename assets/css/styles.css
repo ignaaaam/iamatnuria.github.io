@@ -626,12 +626,13 @@ img {
 .qualification__calendar {
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
+    padding-bottom: 4re;
 }
 
 .qualification__rounder {
     display: inline-block;
-    width: 13px;
-    height: 13px;
+    width: 15px;
+    height: 15px;
     background-color: var(--first-color);
     border-radius: 50%;
 }
@@ -639,9 +640,9 @@ img {
 .qualification__line {
     display: block;
     width: 1px;
-    height: 100%;
+    height: 105%;
     background-color: var(--first-color);
-    transform: translate(6px, -7px);
+    transform: translate(7px, -12px);
 }
 
 .qualification [data-content]{
@@ -650,6 +651,25 @@ img {
 
 .qualification__active[data-content]{
     display: block;
+}
+
+.qualification__separation {
+    margin-bottom: 1rem;
+}
+
+.job__link {
+    transition: all .4s ease-in-out;
+    text-decoration: none;
+    color: var(--title-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.job__link:hover {
+    text-decoration-line: none;
+    font-size: 1.4rem;
+    font-weight: 900;
 }
 
 /*==================== CERTIFICATION ====================*/
