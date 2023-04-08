@@ -279,7 +279,7 @@ img {
 
 /*==================== HOME ====================*/
 .home__container {
-    gap: 1rem;
+    gap: 6rem;
 }
 
 .home__content {
@@ -357,7 +357,7 @@ img {
 }
 
 .home__scroll-arrow {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 /*==================== BUTTONS ====================*/
 .button {
@@ -1299,7 +1299,7 @@ img {
     }
 
     .section {
-        padding: 6rem 0 2rem;
+        padding: 6rem 0 20rem;
     }
 
     .section__subtitle {
@@ -1338,7 +1338,7 @@ img {
     }
 
     .home__container {
-        row-gap: 5rem;
+        row-gap: 24rem;
     }
     .home__content {
         padding-top: 5.5rem;
