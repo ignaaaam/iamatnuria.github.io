@@ -333,6 +333,34 @@ img {
     margin-bottom: var(--mb-2);
 }
 
+.home__description__link {
+    text-decoration: underline;
+    font-size: large;
+    color: inherit;
+    transition: all .3s ease-in-out;
+}
+
+.home__description__link:hover {
+    font-size: x-large;
+    color: inherit;
+}
+
+#laravel-link {
+ color: #F93F3A;
+}
+
+#inertia-link {
+ color: #4A1394;
+}
+
+#vue-link {
+ color: #41B883;
+}
+
+#tailwind-link {
+ color: #0677a9;
+}
+
 .home__scroll {
     display: none;
 }
@@ -1064,6 +1092,7 @@ img {
 }
 
 .footer__subtitle {
+    line-height: 2;
     font-size: var(--small-font-size);
 }
 

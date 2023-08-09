@@ -14,9 +14,12 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
     <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
     <!--==================== CSS ====================-->
+    <!-- <link rel="stylesheet" href="assets/css/styles.min.css"> -->
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon">
 
@@ -49,23 +52,25 @@
     </script>
 
     <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
+    <script>
+        (function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
                 'gtm.start':
                     new Date().getTime(), event: 'gtm.js'
             }); var f = d.getElementsByTagName(s)[0],
                 j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-PPB75LJ');</script>
+        })(window, document, 'script', 'dataLayer', 'GTM-PPB75LJ');
+    </script>
     <!-- End Google Tag Manager -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2554731149063338"
      crossorigin="anonymous"></script>
 
-     <script type="application/ld+json">
+    <script type="application/ld+json">
         {"name" : "ignathedev",
           "url" : "https://www.ignathedev.com", 
           "logo": "https://www.ignathedev.com/assets/img/profile_picture.jpg" }
-        </script>
+    </script>
 
         <!-- SCROLL REVEAL JS -->
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -162,9 +167,12 @@
 
                     <div class="home__data">
                         <h1 class="home__title">Hi, I'm Ignacio</h1>
-                        <h3 class="home__subtitle">Fullstack developer</h3>
-                        <p class="home__description">High level experience in web design and development knowledge,
-                            producing quality work.</p>
+                        <h3 class="home__subtitle">Fullstack web developer</h3>
+                        <p class="home__description">Bringing extensive expertise in web design and development, merging aesthetics and functionality seamlessly. Proficient in both back-end and front-end realms, I'm dedicated to creating exceptional digital solutions.
+                            <br>
+                            <br>
+                            I have a strong affinity for <a id="laravel-link" class="home__description__link" href="https://laravel.com/" target="_blank"><b>Laravel</b></a> and leverage it alongside <a id="inertia-link" class="home__description__link" href="https://inertiajs.com/" target="_blank"><b>Inertia</b></a> and <a id="vue-link" class="home__description__link" href="https://vuejs.org/" target="_blank"><b>Vue 3</b></a> to craft dynamic interfaces. Let's collaborate to elevate your online presence with a focus on quality and innovation
+                        </p>
                         <a href="#contact" class="button button--flex">
                             Contact Me<i class="uil uil-message button__icon"></i>
                         </a>
@@ -197,7 +205,7 @@
                         have <strong>2 years</strong> over my back in this field. I attended multiple cybersecurity
                         courses & conferences to learn more about this.</p>
 
-                    <p class="about__description">During the last 3 months I also started a little basic project about <strong>Web3</strong> & <strong>Blockchain</strong> to learn how Solidity & Smart Contract works.</p>
+                    <p class="about__description">Been working during the last year on one of the best Marketing Agencies of Spain as back-end developer in Barcelona using <a id="laravel-link" class="home__description__link" href="https://laravel.com/" target="_blank"><b>Laravel</b></a> with <a id="inertia-link" class="home__description__link" href="https://inertiajs.com/" target="_blank"><b>Inertia</b></a> & <a id="vue-link" class="home__description__link" href="https://vuejs.org/" target="_blank"><b>Vue 3</b></a> building things for top level companies. </p>
 
                     <div class="about__info">
                         <div>
@@ -761,7 +769,7 @@
                             </li>
                             <li class="services__modal-service">
                                 <i class="uil uil-check-circle services__modal-icon"></i>
-                                <p>Using latest technologies, such as tailwindCSS, Javascript ES8-ES9</p>
+                                <p>Using latest technologies, such as <a id="vue-link" class="home__description__link" href="https://vuejs.org/" target="_blank"><b>Vue 3</b></a> <a id="tailwind-link" class="home__description__link" href="https://tailwindcss.com/" target="_blank"><b>TailwindCSS</b></a>, Javascript ES8-ES9</p>
                             </li>
                             <li class="services__modal-service">
                                 <i class="uil uil-check-circle services__modal-icon"></i>
@@ -796,7 +804,7 @@
                             </li>
                             <li class="services__modal-service">
                                 <i class="uil uil-check-circle services__modal-icon"></i>
-                                <p>Using different technologies, such as PHP + Laravel framework & in the future
+                                <p>Using different technologies, such as PHP + <a id="laravel-link" class="home__description__link" href="https://laravel.com/" target="_blank"><b>Laravel</b></a> framework & in the future
                                     Javascript (React)</p>
                             </li>
                             <li class="services__modal-service">
@@ -1100,7 +1108,11 @@
             <div class="footer__container container grid">
                 <div>
                     <h1 class="footer__title">Ignacio</h1>
-                    <span class="footer__subtitle">Fullstack developer</span>
+                        <p class="footer__subtitle">Full-stack web developer</p>
+                        <p class="footer__subtitle">Front-end web developer</p>
+                        <p class="footer__subtitle">Back-end web developer</p>
+                        <p class="footer__subtitle">Laravel web developer</p>
+                        <p class="footer__subtitle">Barcelona web developer</p>
                 </div>
 
                 <ul class="footer__links">
@@ -1141,7 +1153,7 @@
     </a>
 
     <!--==================== SWIPER JS ====================-->
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.min.js"></script>
