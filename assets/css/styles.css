@@ -306,11 +306,11 @@ img {
 .home__blob{
     width: 200px;
     fill: var(--first-color);
+    animation: float 6s ease-in-out infinite;
 }
 
 .home__blob-img {
     width: 210px;
-    
 }
 
 .home__data {
@@ -1511,4 +1511,16 @@ img {
     .contact__inputs {
         grid-template-columns: repeat(2,1fr);
     }
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
 }
