@@ -345,20 +345,37 @@ img {
     color: inherit;
 }
 
+.astro-link {
+
+    text-decoration: underline;
+    font-size: large;
+    color: inherit;
+    transition: all .3s ease-in-out;
+}
+
+.astro-link:hover {
+    font-size: x-large;
+    color: inherit;
+}
+
+#astro-link {
+    color: #FF7E33;
+}
+
 #laravel-link {
- color: #F93F3A;
+    color: #F93F3A;
 }
 
 #inertia-link {
- color: #4A1394;
+    color: #4A1394;
 }
 
 #vue-link {
- color: #41B883;
+    color: #41B883;
 }
 
 #tailwind-link {
- color: #0677a9;
+    color: #0677a9;
 }
 
 .home__scroll {
@@ -457,7 +474,7 @@ img {
 }
 
 .about__description {
-    text-align: center;
+    text-align: left;
     margin-bottom: var(--mb-2-5);
 }
 
